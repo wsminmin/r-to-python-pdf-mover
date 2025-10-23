@@ -15,7 +15,7 @@ This is a simple script comparison project to help me refresh Python syntax afte
 ### 📁 Project Structure
 
 The folder structure expected by the scripts is:
-
+```
 r-to-python-pdf-mover/
 ├── file_organizer.R
 ├── file_organizer.py
@@ -28,6 +28,7 @@ r-to-python-pdf-mover/
 │       └── ... (any number of additional subfolders with PDFs)
 └── output/
     └── Moved_pdf/
+```
 
 > **Note:** You don’t need to include real PDF files in the repo. Create your own PDF files in `data/PDF` before running the scripts.
 
