@@ -7,7 +7,7 @@ import glob
 # -------------------------------
 # Define paths relative to the script location
 source_dir = r"data/PDF"
-destination_dir = r"output/Moved PDF_Python"
+destination_dir = r"output/moved_PDF"
 
 # -------------------------------
 # 2️⃣ FIND ALL PDF FILES RECURSIVELY
@@ -57,4 +57,5 @@ print("""
 2. Remove 'et al' from filenames if present.
 3. Open PDFs to confirm filenames match article titles.
 """)
+
 
