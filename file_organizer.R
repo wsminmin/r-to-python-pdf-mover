@@ -9,7 +9,7 @@ rm(list=ls())
 source_dir <- "data/PDF"
 
 # Set the destination directory to copy the PDF files
-destination_dir <- "output/Moved pdf"
+destination_dir <- "output/moved_pdf"
 
 # List all PDF files in subfolders
 pdf_files <- list.files(path = source_dir, pattern = ".pdf$", recursive = TRUE, 
@@ -69,4 +69,5 @@ if (all(file.exists(pdf_files))) {
 #    if not then search and download the article.
 
 ##############################END OF CODES######################################
+
 
