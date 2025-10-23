@@ -6,10 +6,10 @@ rm(list=ls())
 ######COPY AND PASTE PDFS FROM INDIVIDUAL ENDNOTE SUBFOLDERS TO ONE FILDER######
 
 # Set the source directory where the subfolders with PDF files are located
-source_dir <- "C:/Users/u1163734/OneDrive - IQVIA/General - Amgen PH HTA 1/08. HTA dossier development - new format/Amgen Prolia Traveling Library.Data/PDF"
+source_dir <- "data/PDF"
 
 # Set the destination directory to copy the PDF files
-destination_dir <- "C:/Users/u1163734/OneDrive - IQVIA/General - Amgen PH HTA 1/08. HTA dossier development - new format/Moved pdf"
+destination_dir <- "output/Moved pdf"
 
 # List all PDF files in subfolders
 pdf_files <- list.files(path = source_dir, pattern = ".pdf$", recursive = TRUE, 
@@ -69,3 +69,4 @@ if (all(file.exists(pdf_files))) {
 #    if not then search and download the article.
 
 ##############################END OF CODES######################################
+
