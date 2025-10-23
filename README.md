@@ -27,7 +27,7 @@ r-to-python-pdf-mover/
 │       │   └── (your PDF files here)
 │       └── ... (any number of additional subfolders with PDFs)
 └── output/
-    └── Moved_pdf/
+    └── moved_pdf/
 ```
 
 > **Note:** You don’t need to include real PDF files in the repo. Create your own PDF files in `data/PDF` before running the scripts.
