@@ -5,8 +5,9 @@ import glob
 # -------------------------------
 # 1️⃣ SET DIRECTORIES
 # -------------------------------
-source_dir = r"C:/Users/u1163734/OneDrive - IQVIA/Training/Python refresher/1_File organizer/PDF"
-destination_dir = r"C:/Users/u1163734/OneDrive - IQVIA/Training/Python refresher/1_File organizer/Moved PDF_Python"
+# Define paths relative to the script location
+source_dir = r"data/PDF"
+destination_dir = r"output/Moved PDF_Python"
 
 # -------------------------------
 # 2️⃣ FIND ALL PDF FILES RECURSIVELY
@@ -56,3 +57,4 @@ print("""
 2. Remove 'et al' from filenames if present.
 3. Open PDFs to confirm filenames match article titles.
 """)
+
